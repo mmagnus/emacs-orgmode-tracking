@@ -5,6 +5,7 @@ Use C-c o r to insert a hashtag into your Org-mode buffer. Then just copy and pa
 Example tag: emacs-orgmode-tracking::PF4XGDM
 
 ![](tracker.jpg)
+![](tracker2.jpg)
 
 # Installation
 
