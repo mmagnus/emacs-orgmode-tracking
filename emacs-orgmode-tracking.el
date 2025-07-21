@@ -1,0 +1,5 @@
+(defun emacs_orgmode_tracking ()
+  (interactive)
+  (insert (shell-command-to-string "echo \"emacs-orgmode-tracking::`openssl rand -base64 5 |  sed 's/=//'`\""))
+) 
+(global-set-key (kbd "C-c o r") 'emacs_orgmode_tracking)
